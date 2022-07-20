@@ -1,0 +1,20 @@
+body {
+  padding:50px;
+  font-family::"Oswald";
+}
+#img1 {
+  width:25%;
+  float:right;
+  margin:20px;
+  border: 3px solid red;
+  padding:30px;
+}
+#img2 {
+  width:33%
+}
+.red-text {
+  color:red;
+  padding:50px;
+  border-top: 5px solid red;
+  border-bottom: 5px dotted green;
+}
