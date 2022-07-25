@@ -1,0 +1,24 @@
+* {
+  margin:0;
+}
+body {
+  background-color:lightgray;
+  margin:0px;
+  padding:50px;
+}
+.main-container {
+  background-color:white;
+  padding:25px;
+  border: 2px solid gray;
+  box-shadow: 5px 5px 5px 5px rgba(30,30,30,0.3);
+}
+.contents-container {
+  background-color:lightblue;
+  width:50%;
+  border-left: 3px solid black;
+  padding:10px;
+
+}
+#etymology {
+  font-size:12pt
+}
