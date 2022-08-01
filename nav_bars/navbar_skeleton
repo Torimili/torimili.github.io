@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Navbar 3 - TMorris</title>
+  </head>
+  <body>
+    <header>
+      <h1>Company Name</h1>
+      <h5>Subheader</h5>
+    </header>
+    <nav>
+      <ul>
+        <li> <a href="#">Home</a> </li>
+        <li> <a href="#">About</a> </li>
+        <li> <a href="#">Contact</a> </li>
+        <li> <a href="#">Shop</a> </li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h4>Header</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
