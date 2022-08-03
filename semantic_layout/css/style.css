@@ -1,0 +1,47 @@
+body {
+  margin: 5%;
+}
+header {
+  background:black;
+  padding:5%;
+}
+header h1 {
+  color:darkcyan;
+  font-size: 50px;
+}
+nav ul {
+  display:flex;
+  justify-content: space-around;
+}
+nav li {
+  list-style-type:none;
+  color:black;
+}
+nav a {
+  text-decoration: none;
+  color:black;
+}
+main {
+  padding:5%;
+  padding-top:5px;
+  background-color:darkcyan;
+  margin:10px;
+}
+section {
+  background-color:lightgray;
+  padding:10px;
+}
+.card {
+  padding:10px;
+  margin:10px;
+}
+.na {
+  padding: 8px;
+}
+footer {
+  background:black;
+  padding:20px;
+}
+footer h3 {
+  color:darkcyan;
+}

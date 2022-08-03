@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+main {
+  height: 90vh;
+  background: linear-gradient(-45deg, #561425,#BD93BD,#561425);
+  background-size: 100% 400%;
+  background-position: top;
+  transition: 4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #561425; */
+  /* border: 10px solid #FFFFFF; */
+}
+main:hover {
+  background-position: bottom;
+  /* justify-content: flex-start; */
+}
+h1  {
+  color:white;
+  font-family:sans-serif;
+  font-size:7em;
+}
+header {
+  /* Default CSS */
+  height:150px;
+  display:flex;
+  align-items:center;
+  padding:25px;
+
+  /* Background Image */
+  background: linear-gradient(rgba(0,0,0,0,), rgba(0,0,0,0.5)),
+              url(../assets/images/teams_bg.png);
+  background-size:
+}

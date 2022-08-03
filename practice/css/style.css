@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  background-color:
+  font-family: "Fahkwang";
+}
+@font-face {
+font-family:"MarcellusSC";
+src:url("./assets/fonts/MarcellusSC-Regular.ttf") format("Truetype");
+/* src:url("./assets/fonts/futurapt.otf") format("Opentype");
+src:url("./assets/fonts/futurapt.woff") format("Woff"); */
+}
+header {
+  background-color: #ffffff;
+  border-bottom: 0px;
+  /* display:flex; */
+  justify-content: center;
+  margin: 0px;
+  padding: 50px;
+  font-family: "MarcellusSC-Regular.ttf";
+}
+.header-title {
+  font-size: 72px;
+  color: #000000;
+  /* padding-left: 5%; */
+}
+.header-logo {
+  width: 15%;
+  /* padding: 10px; */
+}
+nav {
+
+}
+nav ul {
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+}
+nav li {
+  list-style-type: none;
+  display: inline;
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  /* border:1px solid gold; */
+  border-radius: 0px 0px 3px 3px;
+  transition: 0.5s;
+}
+nav li:hover {
+  background-color: #561425;
+  color: #BD93BD;
+  /* border-radius:0px 0px 10px 10px; */
+}
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+nav a:active {
+  color: #ffffff;
+}
+main {
+  margin: 25px;
+}
+footer {
+  background-color: #561425;
+  display: flex;
+  justify-content: center;
+}
+.footer-logo {
+  width: 15%;
+  padding: 30px;
+  /* border-right: 3px solid #BD93BD; */
+}
