@@ -6,12 +6,16 @@ body {
   background-size:100% 400%;
   background-position:top;
   transition:4s ease;
-  display:flex;
+  /* display:flex; */
   align-items:center;
   justify-content:center;
 }
+body:hover {
+  background-position: bottom;
+}
 main {
-  /* display:flex; */
+  display:flex;
+  justify-content: center;
   /* background-color:#561425; */
 }
 main:hover {
@@ -24,11 +28,12 @@ main:hover {
   justify-content:center;
 }
 nav {
-  padding:0px 5%;
-  padding-bottom:5px;
+  padding:0px 0%;
+  padding-bottom:0px;
   /* background-color:#561425; */
   position:sticky;
   top:170px;
+  border-bottom:3px solid white;
 }
 nav ul {
   padding-left:0px;
@@ -37,6 +42,7 @@ nav ul {
   margin:0px;
 }
 nav li {
+  color:white;
   list-style-type:none;
   display:inline;
   flex:1;

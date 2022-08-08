@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+
+body {
+  margin: 0;
+}
+header {
+  background-color:darkred;
+  padding:30px;
+  font-family: "./assets/fonts/star_jedi/starjedi/Starjedi.ttf", sans-serif;
+}
+table {
+  font-family: 'Gruppo', sans-serif;
+}
+tr {
+}
+tr:hover {
+  background-color:white;
+}
+th {
+  padding:5px 10px;
+  background-color:blue;
+  font-size:18pt;
+}
+td {
+padding:5px 10px;
+background-color:lightblue;
+font-size:14pt;
+color:black;
+}
+td:hover {
+  background-color:purple;
+  color:white;
+}
