@@ -5,30 +5,76 @@ body {
   margin: 0;
 }
 header {
-  background-color:darkred;
-  padding:30px;
-  font-family: "./assets/fonts/star_jedi/starjedi/Starjedi.ttf", sans-serif;
+  background: linear-gradient(-45deg, blue, darkred);
+  background-position: left top;
+  padding: 30px;
+  font-family: "../assets/fonts/star_jedi/starjedi/Starjedi.ttf", sans-serif;
 }
+
+nav  {
+  border-bottom: 2px solid darkred;
+  padding: 0px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+nav li {
+  list-style-type: none;
+  padding: 0px 10px;
+  color: black;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.main-header {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
 table {
   font-family: 'Gruppo', sans-serif;
+  width: 80%;
+  margin:auto;
+  padding-top: 10px;
+  border-collapse: collapse;
+  border: 3px solid black;
 }
 tr {
+  border: 2px solid black;
 }
 tr:hover {
-  background-color:white;
+  background-color: white;
 }
 th {
-  padding:5px 10px;
-  background-color:blue;
-  font-size:18pt;
+  padding: 5px 10px;
+  background-color: blue;
+  font-size: 18pt;
+  color: white;
 }
 td {
-padding:5px 10px;
-background-color:lightblue;
-font-size:14pt;
-color:black;
+padding: 5px 10px;
+background-color: lightblue;
+font-size: 14pt;
+color: black;
 }
 td:hover {
-  background-color:purple;
-  color:white;
+  background-color: purple;
+  color: white;
 }
+.movie:hover {
+  background-color: red;
+}
+col {
+  color:red;
+}
+
+/* Site Styling */
