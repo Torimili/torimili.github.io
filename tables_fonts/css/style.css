@@ -83,7 +83,7 @@ col {
   color:white;
   font-size: 48pt;
 }
-.movie:hover {
+/* .movie:hover {
   background-color: darkred;
 }
 .animated:hover {
@@ -91,7 +91,7 @@ col {
 }
 .series:hover {
   background-color: darkorchid;
-}
+} */
 footer {
   padding: 10px;
   display: flex;
