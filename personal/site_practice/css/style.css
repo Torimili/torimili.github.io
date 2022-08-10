@@ -4,7 +4,7 @@ body {
   background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)),
               linear-gradient(-45deg, #561425,#BD93BD,#561425);
   background-size:100% 400%;
-  background-position:top;
+  background-position:top left;
   transition:4s ease;
   /* display:flex; */
   align-items:center;
@@ -22,10 +22,11 @@ main:hover {
   background-position:bottom;
 }
 .logo {
-  width:50%;
+  width: 80%;
   padding:100px;
   align-items:center;
   justify-content:center;
+  background-color: 
 }
 nav {
   padding:0px 0%;
