@@ -1,0 +1,85 @@
+@font-face {
+font-family:"Marcellus SC";
+src:url("./assets/fonts/MarcellusSC-Regular.ttf") format("Truetype");
+src:url("./assets/fonts/MarcellusSC-Regular.otf") format("Opentype");
+src:url("./assets/fonts/MarcellusSC-Regular.woff") format("Woff");
+}
+@font-face {
+font-family:"Fahkwang-Regular";
+src:url("./assets/Fahkwang-Regular.ttf") format("Truetype");
+src:url("./assets/fonts/Fahkwang-Regular.otf") format("Opentype");
+src:url("./assets/fonts/Fahkwang-Regular.woff") format("Woff");
+}
+body {
+  margin: 0;
+  background-color:
+  font-family: "Fahkwang-Regular": sans-serif;
+}
+header {
+  background-color: #561425;
+  border-bottom: 0px;
+  display:flex;
+  margin: 0px;
+  padding: 20px;
+  font-family: "Marcellus SC";
+}
+.header-title {
+  color: #ffffff;
+  padding-left: 55%;
+}
+.header-logo {
+  width: 15%;
+  padding: 10px;
+}
+nav {
+  font-family: "Fahkwang"
+  /* border: 2px solid #561425; */
+}
+nav ul {
+  border-bottom: 2px solid #561425;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+}
+nav li {
+  list-style-type: none;
+  display: inline;
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  /* border:1px solid gold; */
+  /* border-radius: 0px 0px 3px 3px; */
+  transition: 0.5s;
+}
+nav li:hover {
+  background-color: #561425;
+  color: #BD93BD;
+  background-position: top;
+  /* border-radius:0px 0px 10px 10px; */
+}
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+nav a:active {
+  color: #ffffff;
+}
+.main {
+  /* border: 2px solid #561425; */
+  margin: 50px;
+  font-family: "Fahkwang"
+}
+.headline {
+  font-family: "Marcellus SC"
+}
+footer {
+  background-color: #561425;
+  display: flex;
+  justify-content: center;
+}
+.footer-logo {
+  width: 15%;
+  padding: 30px;
+  /* border-right: 3px solid #BD93BD; */
+}
