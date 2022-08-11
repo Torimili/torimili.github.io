@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Below is the code to add a favicon -->
+    <link rel="icon" href="./assets/images/images-outline.svg">
+    <title>Adding Media Files</title>
+      <style>
+        #file_button {
+          background:linear-gradient(45deg,darkgreen, greenyellow);
+          border:3px solid black;
+          border-radius:5px;
+          color:white;
+          font-weight:bold;
+          padding:20px;
+          font-size:30pt;
+        }
+        #file_button:hover {
+          background:linear-gradient(-45deg,yellow, darkgreen);
+          color:green;
+          border:3px solid green;
+          cursor:pointer;
+        }
+      </style>
+  </head>
+  
+  
+  <body>
+    <header>
+      <h1>Placing Video and Audio Files</h1>
+    </header>
+    <main>
+      <div class="hero">
+        <video height="640" width="360" autoplay loops play-inline>
+          <source src="./assets/videos/file.mp4" type="video/mp4"/>
+          <source src="./assets/videos/file.ogg" type="video/ogg"/>
+        </video>
+      </div>
+      <div class="file_container">
+        <a href="./assets/images/jungle.jpg"><button id="file_button">Pic Me</button></a>
+        <a href="./assets/images/navitron.svg"><button id="file_button">Click Me</button></a>
+      </div>
+      <div class="audio_container">
+        <audio controls loop>
+          <source src="./assets/audio/MyFoolishHeart.mp3" type="audio/mp3"/>
+        </audio>
+      </div>
+      <div class="audio_container2">
+        <audio controls loop>
+          <source src="./assets/audio/nitroGirls2.mp3" type="audio/mp3"/>
+        </audio>
+      </div>
+    </main>
+  </body>
+</html>
