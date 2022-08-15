@@ -1,106 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
-
+@font-face {
+font-family:"Marcellus SC";
+src:url("./assets/fonts/MarcellusSC-Regular.ttf") format("Truetype");
+src:url("./assets/fonts/MarcellusSC-Regular.otf") format("Opentype");
+src:url("./assets/fonts/MarcellusSC-Regular.woff") format("Woff");
+}
+@font-face {
+font-family:"Fahkwang-Regular";
+src:url("./assets/Fahkwang-Regular.ttf") format("Truetype");
+src:url("./assets/fonts/Fahkwang-Regular.otf") format("Opentype");
+src:url("./assets/fonts/Fahkwang-Regular.woff") format("Woff");
+}
 body {
   margin: 0;
-  height:100vh;
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)),
-              linear-gradient(-45deg, #561425,#BD93BD,#561425);
-  background-size:100% 400%;
-  background-position:top left;
-  transition:3s ease;
-  /* display:flex; */
-  align-items:center;
-  justify-content:center;
+  background-color:
+  font-family: "Fahkwang-Regular": sans-serif;
 }
-body:hover {
-  background-position: bottom;
-}
-h1 {
-  font-family: 'Marcellus SC', serif;
-  font-size:36pt;
-  margin-top:0%;
-  margin-left:5%;
-  color:white;
-}
-main {
+header {
+  background-color: #561425;
+  border-bottom: 0px;
   display:flex;
-  justify-content: center;
-  /* background-color:#561425; */
+  margin: 0px;
+  padding: 20px;
+  font-family: "Marcellus SC";
 }
-main:hover {
-  background-position:bottom;
+.header-title {
+  color: #ffffff;
+  padding-left: 55%;
 }
-.cls-1 {
-  color:rgba(0,0,0,0.25);
-}
-.cls-2 {
-  color:black;
-}
-.cls-1, .cls-2 {
-  transition: 3s ease;
-}
-svg:hover .cls-1 {
-  color:rgba(189,147,189,0.25);
-}
-svg:hover .cls-2 {
-  color:white;
-}
-.logo {
-  width: 80%;
-  padding:100px;
-  align-items:center;
-  justify-content:center;
-  background-color: 
+.header-logo {
+  width: 15%;
+  padding: 10px;
 }
 nav {
-  padding:0px 0%;
-  padding-bottom:0px;
-  /* background-color:#561425; */
-  position:sticky;
-  top:170px;
-  border-bottom:3px solid white;
-  font-family: 'Fahkwang', sans-serif;
+  font-family: "Fahkwang"
+  /* border: 2px solid #561425; */
 }
 nav ul {
-  padding-left:0px;
-  display:flex;
-  justify-content:space-around;
-  margin:0px;
+  border-bottom: 2px solid #561425;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
 }
 nav li {
-  color:#BD93BD;
-  list-style-type:none;
-  display:inline;
-  flex:1;
-  text-align:center;
-  padding:20px;
-  border-radius:0px 0px 3px 3px;
-  transition:0.5s;
-  transition-property:background-position, color;
-  /* background:linear-gradient(to top,rgb(86,20,37) 50%, #BD93BD 50%); */
-  background-size:100% 200%;
-  background-position:bottom;
-  cursor:pointer;
-}
-nav:hover {
-  color:#BD93BD;
-  border-bottom: 3px solid #BD93BD;
-  transition: 3s ease;
+  list-style-type: none;
+  display: inline;
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  /* border:1px solid gold; */
+  /* border-radius: 0px 0px 3px 3px; */
+  transition: 0.5s;
 }
 nav li:hover {
-  background-color:rgba(189,147,189,0.25);
-  backdrop-filter:blur 5px;
-  color:white;
-  background-position:top;
+  background-color: #561425;
+  color: #BD93BD;
+  background-position: top;
+  /* border-radius:0px 0px 10px 10px; */
 }
 nav a {
-  color:white;
-  text-decoration:none;
+  color: inherit;
+  text-decoration: none;
 }
-nav:hover a {
-  color:#BD93BD;
+nav a:active {
+  color: #ffffff;
 }
- nav a:hover {
-  color:white;
- }
+.main {
+  /* border: 2px solid #561425; */
+  margin: 50px;
+  font-family: "Fahkwang"
+}
+.headline {
+  font-family: "Marcellus SC"
+}
+footer {
+  background-color: #561425;
+  display: flex;
+  justify-content: center;
+}
+.footer-logo {
+  width: 15%;
+  padding: 30px;
+  /* border-right: 3px solid #BD93BD; */
+}
