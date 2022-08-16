@@ -52,7 +52,7 @@ footer {
 }
 .footer-right, .footer-left {
   height: 500px;
-  border: 2px solid gray;
+  /* border: 2px solid gray; */
 }
 .footer-left {
   flex: 1;
