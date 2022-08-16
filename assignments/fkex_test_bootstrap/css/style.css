@@ -97,8 +97,8 @@ footer {
     background-color: blanchedalmond;
   }
 }
-@media screen (max-width: 10000px) {
+@media screen and (max-width: 1000px) {
   .grid-wrapper {
-    grid-template-columns: auot auto auto;
+    grid-template-columns: auto auto;
   }
 }
