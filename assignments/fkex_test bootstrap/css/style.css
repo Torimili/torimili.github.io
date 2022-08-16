@@ -64,7 +64,7 @@ footer {
 /* Grid Code */
 .grid-wrapper {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   column-gap: 10px;
   row-gap: 10px;
   width: 80%;
@@ -77,5 +77,17 @@ footer {
   align-items: center;
 }
 .grid-item img {
+  width: 100%;
+}
+
+/* Carousel Code */
+.carousel-item img {
+  max-height:500px;
+}
+/* Boostrap Code */
+.row .col {
+  background-color: whitesmoke;
+}
+.col img {
   width: 100%;
 }
