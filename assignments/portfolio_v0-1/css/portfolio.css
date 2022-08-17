@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&family=Marcellus+SC&display=swap');
+
+body {
+    margin: 0;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #561425;
+}
+.header-item {
+   flex: 1; 
+}
+#header-logo {
+width: 20%;
+fill: currentColor;
+color: white;
+}
+#header-text {
+    color: white;
+    fill: currentColor;
+    width: 50%;
+}
+.right-test {
+    text-align: left;
+}
