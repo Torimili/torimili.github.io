@@ -4,8 +4,8 @@
   }
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Marcellus+SC&display=swap');
-/* font-family: 'Cinzel', serif;
-font-family: 'Marcellus SC', serif; */
+font-family: 'Cinzel', serif;
+font-family: 'Marcellus SC', serif;
 
 * {
     margin: 0;
@@ -26,7 +26,6 @@ main {
     font-family: 'Marcellus SC', serif;
     font-size: 28px;
 }
-
 nav {   
     width: 100%;
     height: 80px;
@@ -37,12 +36,53 @@ nav {
     position: relative;
     top: 80px;
 }
+
 .grid-wrapper {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     column-gap: 10px;
+    row-gap: 10px;
+    width: 80%;
+    margin: 10% auto;
 }
 .grid-item {
+    background: whitesmoke;
+    /* border: 2px solid #561425; */
     display: flex;
     align-items: center;
-}
+  }
+  .grid-item img {
+    width: 100%;
+  }
+  .grid-images {
+    margin-top: 75px;
+  }
+  .grid-images img {
+    margin-bottom: 20px;
+  }
+
+  .hod-trailer {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid2-images {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  footer {
+    display: flex;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  .grrm-logo {
+    width: 45%;
+    margin-top: 10%;
+  }
+  .footer-copyright {
+    text-align: center;
+    font-family: 'Marcellus SC', serif;
+  }
