@@ -84,3 +84,8 @@ nav {
     text-align: center;
     font-family: 'Marcellus SC', serif;
   }
+
+  .youtube {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
