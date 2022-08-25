@@ -37,25 +37,6 @@ nav {
     top: 80px;
 }
 
-/* .grid-wrapper {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 10px;
-    row-gap: 10px;
-    width: 100%;
-    margin: 10% auto;
-} */
-
-/* .grid-item {
-    border: 2px solid #561425;
-    display: flex;
-    align-items: center;
-  } */
-
-  /* .grid-item img {
-    width: 100%;
-  } */
-
   /* Banners */
   .grid-images {
     margin-top: 75px;
@@ -85,11 +66,6 @@ nav {
     padding: 10px;
     margin
   }
-
-  /* .grid2-images {
-    margin-top: 0;
-    padding-top: 0;
-  } */
 
   .container {
     margin-top: 20px;;
