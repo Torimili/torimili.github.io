@@ -38,15 +38,16 @@ nav {
     top: 80px;
     z-index: 2;
 }
-.img-fluid {
+.banner-icon {
   position: relative;
   top: -50px;
   transition: 2s;
   z-index: 1;
 }
-.img-fluid:hover {
+.banner-icon:hover {
   top: 0px;
 }
+
 
   /* Banners */
   .grid-images {
