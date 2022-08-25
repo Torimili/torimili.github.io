@@ -17,6 +17,7 @@ body {
     background-color: gray;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 main {
     background-color: rgba(255,255,255,0.3);
@@ -35,6 +36,16 @@ nav {
 .my-carousel {
     position: relative;
     top: 80px;
+    z-index: 2;
+}
+.img-fluid {
+  position: relative;
+  top: -50px;
+  transition: 2s;
+  z-index: 1;
+}
+.img-fluid:hover {
+  top: 0px;
 }
 
   /* Banners */
