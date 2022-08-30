@@ -5,10 +5,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- Below is the code to add a favicon -->
     <link rel="icon" href="">
-    <title>JS Demos</title>
+    <title>Foxtail Farms - Organic Produce</title>
   </head>
   <body>
-    <div id="main_page">
+    <div id="main-page">
 
       <header>
         <div class="header-left">
@@ -19,17 +19,82 @@
         </div>
       </header>
       <nav>
-  
+        <div class="navbar">
+          <ul>
+            <a href="#">
+              <li>Home</li>
+            </a>
+            <a href="#">
+              <li>Our Story</li>
+            </a>
+            <a href="#">
+              <li>Products</li>
+            </a>
+            <a href="#">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </div>
       </nav> 
       <main>
+        <!-- Main Content Wrapper -->
+        
+        <div class="about-button-wrapper">
+          <h2>Click Here For More Info:</h2>
+          <button class="about-button">About</button>
+          <p class="about-text" id="js-demo">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, tempora dicta! Voluptates inventore, id ad vero esse aspernatur odit adipisci vel. Voluptatibus tempora quas vel quod voluptatem veritatis iusto saepe?
+          </p>
+        </div>
 
       </main>
       <footer>
+        <div class="footer-left">
+          <img src="./assets/logos/fulllogo_white_bg-100.jpg" alt="foxtail farms logo">
+        </div>
+        <div class="footer-center">
+          <h3>Quick Links</h3>
+          <ul>
+            <a href="#">
+              <li>Link1</li>
+            </a><a href="#">
+              <li>Link2</li>
+            </a><a href="#">
+              <li>Link3</li>
+            </a><a href="#">
+              <li>Link4</li>
+            </a><a href="#">
+              <li>Link5</li>
+            </a>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <h3>Quick Links</h3>
+          <ul>
+            <a href="#">
+              <li>Link1</li>
+            </a><a href="#">
+              <li>Link2</li>
+            </a><a href="#">
+              <li>Link3</li>
+            </a><a href="#">
+              <li>Link4</li>
+            </a><a href="#">
+              <li>Link5</li>
+            </a>
+          </ul>
 
+        </div>
       </footer>
 
 
     </div>  
 
+    <script>
+      var x = document.getElementById("js-demo").innerHTML;
+
+      console.log("Hello World");
+      console.log(x);
+    </script>
   </body>
 </html>
