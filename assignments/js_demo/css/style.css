@@ -53,7 +53,8 @@ footer {
   display: flex;
 }
 .footer-left img {
-  width: 100%;
+  width: 75%;
+  padding-left: 10%;
 }
 .footer-left {
   flex: 2;
@@ -74,4 +75,25 @@ footer {
 
 .reveal {
   display: block;
+}
+.time-wrapper {
+  background-color: #e1a177;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  background-image: url("../assets/images/coffee5.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.time-wrapper h4 {
+  font-size: 5rem;
+  text-shadow: 2px 3px 0px black;
+  font-family: "Lobster";
+}
+.time-wrapper p {
+  font-size: 3rem;
 }

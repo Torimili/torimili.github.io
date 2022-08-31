@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
     <!-- Below is the code to add a favicon -->
-    <link rel="icon" href="">
+    <link rel="icon" href="./assets/logos/logo@0.5x.png">
     <title>Foxtail Farms - Organic Produce</title>
   </head>
   <body>
@@ -18,6 +18,7 @@
           <img src="./assets/logos/logo@0.5x.png" alt="logo">
         </div>
       </header>
+
       <nav>
         <div class="navbar">
           <ul>
@@ -36,21 +37,27 @@
           </ul>
         </div>
       </nav> 
+
       <main>
         <!-- Main Content Wrapper -->
-        
+        <div class="time-wrapper">
+          <h4>Coming Soon:</h4>
+          <p id="date-element"></p>
+        </div>
+
         <div class="about-button-wrapper">
           <h2>Click Here For More Info:</h2>
-          <button class="about-button">About</button>
+          <button class="about-button" onclick="toggleContent()">About</button>
           <p class="about-text" id="js-demo">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, tempora dicta! Voluptates inventore, id ad vero esse aspernatur odit adipisci vel. Voluptatibus tempora quas vel quod voluptatem veritatis iusto saepe?
           </p>
         </div>
 
       </main>
+
       <footer>
         <div class="footer-left">
-          <img src="./assets/logos/fulllogo_white_bg-100.jpg" alt="foxtail farms logo">
+          <img src="./assets/logos/ft_fulllogo_whitebg.png" alt="foxtail farms logo">
         </div>
         <div class="footer-center">
           <h3>Quick Links</h3>
@@ -91,10 +98,25 @@
     </div>  
 
     <script>
-      var x = document.getElementById("js-demo").innerHTML;
 
-      console.log("Hello World");
-      console.log(x);
+      // Java Script
+      // THE VAR IS PLACED INSIDE THE FUNCTION TO TELL THE DOM NOT TO LOAD UNTIL THE ACTION IS CALLED
+      function toggleContent() {
+        var a = document.getElementById("js-demo");
+        a .classList.toggle("reveal");
+      }
+
+      var datePg = document.getElementById("date-element");
+
+      function revealDate() {
+        datePg.innerHTML = Date();
+      }
+
+      revealDate();
+
+      // FOR TESTING
+      // console.log();
     </script>
+    <script src="./js/countdown.js"></script>
   </body>
 </html>
