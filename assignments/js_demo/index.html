@@ -2,6 +2,7 @@
 <html lang="zxx" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <!-- Below is the code to add a favicon -->
     <link rel="icon" href="./assets/logos/logo@0.5x.png">
@@ -14,7 +15,7 @@
         <div class="header-left">
           <h1>Foxtail Farms</h1>
         </div>
-        <div class="header-right">
+        <div class="header-right" data-aos="fade-left">
           <img src="./assets/logos/logo@0.5x.png" alt="logo">
         </div>
       </header>
@@ -40,17 +41,38 @@
 
       <main>
         <!-- Main Content Wrapper -->
+        <!-- COUNTDOWN -->
         <div class="time-wrapper">
-          <h4>Coming Soon:</h4>
+          <h4>Assignment Due:</h4>
           <p id="date-element"></p>
         </div>
 
+        <!-- BUTTON -->
         <div class="about-button-wrapper">
           <h2>Click Here For More Info:</h2>
           <button class="about-button" onclick="toggleContent()">About</button>
-          <p class="about-text" id="js-demo">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, tempora dicta! Voluptates inventore, id ad vero esse aspernatur odit adipisci vel. Voluptatibus tempora quas vel quod voluptatem veritatis iusto saepe?
-          </p>
+          <div class="about-text" id="js-demo">
+            <h3>Coffee!</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, tempora dicta! Voluptates inventore, id ad vero esse aspernatur odit adipisci vel. Voluptatibus tempora quas vel quod voluptatem veritatis iusto saepe?
+            </p>
+          </div>
+        </div>
+
+        <!-- IMAGE GRID  -->
+        <div class="grid">
+          <div class="images">
+            <img src="./assets/images/coffee1.jpg" alt="coffee beans">
+          </div>
+          <div class="images">
+            <img src="./assets/images/img2.jpg" alt="cabbage">
+          </div>
+          <div class="images">
+            <img src="./assets/images/coffee3.jpg" alt="coffee bean plant">
+          </div>
+          <div class="images">
+            <img src="./assets/images/img1.jpg" alt="carrots">
+          </div>
         </div>
 
       </main>
@@ -103,7 +125,7 @@
       // THE VAR IS PLACED INSIDE THE FUNCTION TO TELL THE DOM NOT TO LOAD UNTIL THE ACTION IS CALLED
       function toggleContent() {
         var a = document.getElementById("js-demo");
-        a .classList.toggle("reveal");
+        a.classList.toggle("reveal"); console.log("hi");
       }
 
       var datePg = document.getElementById("date-element");
@@ -118,5 +140,9 @@
       // console.log();
     </script>
     <script src="./js/countdown.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

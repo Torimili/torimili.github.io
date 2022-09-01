@@ -12,7 +12,9 @@ body {
   box-sizing: border-box;
   width: 90%;
   border: 5px solid #e1a177;
+  border-radius: 10px 10px;
   margin: 5% auto;
+  box-shadow: 0px 1px 60px 3px #e1a177;
 }
 
 /* HEADER CSS */
@@ -20,24 +22,51 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #e1a177;
+  background: linear-gradient(45deg, #e1a177 60%, #fff 60%);
 }
 .header-right img {
   width: 100%;
+  transition: 10s ease;
 }
 .header-left {
   font-family: "Lobster";
+  padding: 20PX;
+  color: white;
+  font-size: 2rem;
+  /* text-shadow: 0px 3px 10px black; */
 }
 
 /* NAV CSS */
 nav ul {
   display: flex;
   margin: 0;
-  padding-left: 0;
+  padding: 0px;
+  border-top: 3px solid #e1a177;
+  border-bottom: 3px solid #e1a177;
+  justify-content: space-between;
+  align-items: center;
+
 }
 nav li {
   list-style-type: none;
+  display: inline;
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  transition:0.5s;
+}
+nav li:hover {
+  background-color: #e1a177;
+  color: #fff;
 }
 nav a {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
   text-decoration: none;
   color: #e1a177;
 }
@@ -45,12 +74,57 @@ nav a {
 /* CONTENT CSS */
 main {
   /* TEMP */
-  height: 500px;
+  /* height: 500px; */
 }
+.time-wrapper h4 {
+  margin: 0;
+}
+
+/* BUTTON CSS */
+.about-button-wrapper {
+  margin: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.about-button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #e1a177;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgba(1,1,1, 0.20);
+}
+
+/* IMAGE GRID  */
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  width: 80%;
+  padding: 10px;
+  margin: 10% auto;
+}
+  .grid-images {
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+  }
+  .images img {
+    width: 100%;
+  }
 
 /* FOOTER CSS */
 footer {
   display: flex;
+  padding-top: 5%;
+  border-top: 3px solid #e1a177;
 }
 .footer-left img {
   width: 75%;
@@ -66,9 +140,65 @@ footer {
   flex: 1;
 }
 
+/* RESPONSIVENESS */
+/* NOTE: I will work on this over the weekend. I want the logo to be top center and the wordmark to go under it once it hits a small screen size. I'm not there yet */
+/* @media only screen and (max-width: 528px) {
+  header {
+    background: white;
+  }
+  .header_left {
+      font-size: 18pt;
+      color: black;
+  } 
+  .footer_logo {
+      width:25%;
+      margin: 10% 0;
+  }
+  .footer_text {
+      width:50%;
+  }
+  .footer_left {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 528px) {
+  header {
+      padding: 5px 5px;
+  }
+  .header_left {
+      font-size: 2.25rem;
+  }
+  .footer_left {
+      flex-direction: column;
+  }
+  .footer_center {
+      background-color: #e1a177;
+  }
+  .footer_center ul, .footer_right ul {
+      flex-direction: column;
+      text-align: right;
+      list-style-type: none;
+  }
+  .footer_center h3, .footer_right h3 {
+      text-align: right;
+  }
+  .footer_text {
+      width:100%;
+  }
+  .footer_logo {
+      margin:auto;
+  }
+  footer {
+      flex-direction: row;
+  }
+} */
+
 
 
 /* JS DEMO 1 */
+
 .about-text {
   display: none;
 }
@@ -76,6 +206,7 @@ footer {
 .reveal {
   display: block;
 }
+
 .time-wrapper {
   background-color: #e1a177;
   height: 400px;
@@ -88,7 +219,6 @@ footer {
   background-size: cover;
   background-position: center center;
 }
-
 .time-wrapper h4 {
   font-size: 5rem;
   text-shadow: 2px 3px 0px black;
