@@ -1,0 +1,110 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&family=Marcellus+SC&display=swap');
+
+body {
+    margin: 0;
+    /* font-family: ; */
+  }
+  
+  .main-page {
+  
+  }
+  
+  /* HEADER CSS */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #561425;
+  }
+  .header-left {
+    text-align: left;
+    font-family: 'Marcellus SC', serif;
+    color: white;
+    font-size: 18pt;
+    padding: 20px;
+  }
+  .header-right {
+    text-align: right;
+    width: 20%;
+    max-width: 20%;
+  }
+  .header-right img {
+    width: 100%;
+  }
+  
+  /* NAV CSS */
+  nav {
+    font-family: 'Fahkwang', sans-serif;
+  }
+  nav ul {
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+  }
+  nav a {
+    color: #561425;
+    text-decoration: none;
+    display: flex;
+    flex: 1;
+  }
+  nav li {
+    list-style-type: none;
+    display: block;
+    flex: 1;
+    text-align: center;
+    color: #561425;
+    padding: 20px;
+  }
+  nav li:hover {
+    background-color: #561425;
+    color: whitesmoke;
+  }
+  nav a:hover {
+    color: whitesmoke;
+  }
+  
+  /* CONTENT CSS */
+  main {
+  
+  }
+  /* TEMP PLACEHOLDER */
+  .space {
+    width: 500px;
+    height: 500px;
+  }
+  
+  /* FOOTER CSS */
+  footer {
+    background: #561425;
+    display: flex;
+    justify-content: space-between;
+    /* TEMP */
+    height: 500px;
+  }
+  .footer-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-left img {
+    width: 40%;
+    max-width: 50%;
+    padding: 50px;
+    padding-top: 100px;
+  }
+  .footer-center {
+    flex: 1;
+  }
+  .footer-right {
+    flex: 2;
+  }
+  .socials {
+    flex: 1;
+    flex-basis: 300px;
+    color: #BD93BD;
+  }
