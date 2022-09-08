@@ -1,0 +1,134 @@
+/* FONTS */
+
+body {
+  margin: 0;
+  background-image: url(../assets/images/kyle-glenn-Hd8BwlZWLOY-unsplash.jpg);
+  background-size: cover;
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* HEADER CSS */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: green;
+}
+.header-left {
+  padding: 20px;
+  color: whitesmoke;
+  font-size: 2rem;;
+}
+.header-right button {
+  width: 100%;
+  background-color: white;
+  color: green;
+
+}
+
+/* NAV CSS */
+nav {
+  background: whitesmoke;
+  border: 2px solid green;
+}
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+nav li {
+  list-style-type: none;
+  display: inline;
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  margin: 10%;
+  transition: 0.5s;
+}
+nav li:hover {
+  background-color: green;
+  color: whitesmoke;
+}
+nav a {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  text-decoration: none;
+  color: green;
+}
+
+
+/* CONTENT CSS */
+main {
+  background-color: rgba(255,255,255,0.3);
+}
+.hero img {
+  width: 100%;
+}
+.about {
+  background: green;
+  color: whitesmoke;
+  margin: 0%;
+  padding: 5%;
+  margin-top: 5%;
+}
+
+.grid {
+  background: whitesmoke;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 5%;
+  row-gap: 5%;
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 0px;
+}
+.grid-images {
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+.images img {
+  width: 100%;
+}
+
+.btn.sub {
+  background: green;
+  color: whitesmoke;
+}
+.btn.green {
+  background: green;
+  color: whitesmoke;
+  margin-bottom: 50px;
+}
+.d-grid.gap-2.sub-button {
+  margin: 5%;
+}
+
+/* FOOTER CSS */
+footer {
+  display: flex;
+  padding-top: 5%;
+  background: green;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-left {
+  flex: 1;
+}
+.footer-center {
+  flex: 2;
+}
+.footer-right {
+  flex: 1;
+}
