@@ -1,117 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&family=Marcellus+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&family=Marcellus+SC&display=swap');
 
-body {
-    margin:0;
+/* BODY */
+/* ON STLE CSS SHEET */
+
+/* HEADER */
+/* ON STYLE CSS SHEET */
+
+/* NAV */
+/* ON STYLE CSS SHEET */
+.sub-navbar {
+  padding-top: 2%;
 }
-.header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: #561425;
+.sub-navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.header-left {
-    flex: 1;
-    text-align: left;
+.sub-navbar li {
+  border: 2px solid lightgray;
+  border-radius: 25%;
+  display: block;
+  padding: 20px;
+  margin: 10px;
+  color: black;
+
 }
-.header-left h1 {
-    color: white;
-    font-family: 'Marcellus SC', serif;
-    font-size: 36pt;
-    padding: 10px;
-}
-.header-logo {
-    text-align: right;
-    width: 20%;
-    max-width: 20%;
-}
-.header-logo img {
-    width: 100%;
-}
-.space {
-    width: 500px;
-    height: 500px;
+.sub-navbar li:hover {
+  background-color: rgba(189, 147, 189, 1);
+  color: black;
+  box-shadow: 0px 3px 30px 3px rgba(189, 147, 189, 0.45);
+
 }
 
-nav {
-    font-family: 'Fahkwang', sans-serif;
-}
-nav ul {
-    padding-left:0px;
-    display:flex;
-    justify-content:space-around;
-    margin:0px;
-}
-nav li {
-    list-style-type:none;
-    display:inline;
-    flex:1;
-    text-align:center;
-    color:#561425;
-}
-nav li:hover {
-    background-color:#561425;
-    color:whitesmoke;
-}
-nav a {
-    color:#561425;
-    text-decoration: none;
-    padding:20px;
-    display: block;
-}
-nav a:hover {
-    color:whitesmoke;
-}
-footer {
-    background: #561425;
-    display: flex;
-    justify-content: space-between;
-  }
-  .footer-right, .footer-left {
-    height: 500px;
-    /* border: 2px solid gray; */
-  }
-  .footer-left {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .footer-left img {
-    width: 40%;
-    max-width: 50%;
-    /* justify-content: center;
-    align-items: center; */
-    padding: 50px;
-  }
-  .footer-right {
-    flex: 2;
-  }
-  .socials {
-    flex: 1;
-    flex-basis: 300px;
-    /* flex-grow: 1;
-    flex-shrink: 1; */
-    color: #BD93BD;
-}
-
-/* Portfolio CSS */
+/* MAIN */
 .grid-wrapper {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 10px;
-    row-gap: 10px;
-    width: 80%;
-    margin: 10% auto;
-  }
-  .grid-item {
-    background: whitesmoke;
-    /* border: 2px solid #561425; */
-    display: flex;
-    align-items: center;
-  }
-  .grid-item img {
-    width: 100%;
-  }
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  width: 80%;
+  margin: 10% auto;
+}
+.grid-item {
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+.grid-item img {
+  width: 100%;
+}
+
+/* FOOTER */
+/* ON STYLE CSS SHEET */

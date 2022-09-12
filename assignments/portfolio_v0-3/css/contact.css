@@ -1,100 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&family=Marcellus+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&family=Marcellus+SC&display=swap');
 
-body {
-    margin:0;
-}
+/* BODY */
+/* ON STLE CSS SHEET */
 
-.header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: #561425;
-}
-.header-left {
-    flex: 1;
-    text-align: left;
-}
-.header-left h1 {
-    color: white;
-    font-family: 'Marcellus SC', serif;
-    font-size: 36pt;
-    padding: 10px;
-}
-.header-logo {
-    text-align: right;
-    width: 20%;
-    max-width: 20%;
-}
-.header-logo img {
-    width: 100%;
-}
+/* HEADER */
+/* ON STYLE CSS SHEET */
+
+/* NAV */
+/* ON STYLE CSS SHEET */
+
+/* MAIN */
 .space {
     width: 500px;
-    height: 500px;
-}
+    height: 10px;
+  }
+  .form-wrapper h2 {
+    font-family: 'Marcellus SC', serif;
+  }
+  .form-wrapper {
+    border: 3px solid #561425;
+    margin: 10%;
+    padding: 5%;
+  }
 
-nav {
-    font-family: 'Fahkwang', sans-serif;
-}
-nav ul {
-    padding-left:0px;
-    display:flex;
-    justify-content:space-around;
-    margin:0px;
-}
-nav li {
-    list-style-type:none;
-    display:inline;
-    flex:1;
-    text-align:center;
-    color:#561425;
-}
-nav li:hover {
-    background-color:#561425;
-    color:whitesmoke;
-}
-nav a {
-    color:#561425;
-    text-decoration: none;
-    padding:20px;
-    display: block;
-}
-nav a:hover {
-    color:whitesmoke;
-}
-footer {
-    background: #561425;
-    display: flex;
-    justify-content: space-between;
-  }
-  .footer-right, .footer-left {
-    height: 500px;
-    /* border: 2px solid gray; */
-  }
-  .footer-left {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .footer-left img {
-    width: 40%;
-    max-width: 50%;
-    /* justify-content: center;
-    align-items: center; */
-    padding: 50px;
-  }
-  .footer-right {
-    flex: 2;
-  }
-  .socials {
-    flex: 1;
-    flex-basis: 300px;
-    /* flex-grow: 1;
-    flex-shrink: 1; */
-    color: #BD93BD;
-    
-}
+/* FOOTER */
+/* ON STYLE CSS SHEET */

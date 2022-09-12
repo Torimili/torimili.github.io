@@ -4,8 +4,7 @@
 
 body {
     margin: 0;
-    /* font-family: ; */
-  }
+    font-family: 'Fahkwang', sans-serif;  }
   
   .main-page {
   
@@ -20,6 +19,7 @@ body {
   }
   .header-left {
     text-align: left;
+    padding: 5%;
     font-family: 'Marcellus SC', serif;
     color: white;
     font-size: 18pt;
@@ -27,11 +27,13 @@ body {
   }
   .header-right {
     text-align: right;
+    padding: 5%;
     width: 20%;
     max-width: 20%;
   }
   .header-right img {
     width: 100%;
+    padding: 5%;
   }
   
   /* NAV CSS */
@@ -71,10 +73,10 @@ body {
   
   }
   /* TEMP PLACEHOLDER */
-  .space {
+  /* .space {
     width: 500px;
     height: 500px;
-  }
+  } */
   
   /* FOOTER CSS */
   footer {
@@ -108,3 +110,10 @@ body {
     flex-basis: 300px;
     color: #BD93BD;
   }
+
+ @media and screen only (max-width: 649px)
+ {
+  .header-left {
+    font-size: 72px;
+  }
+ }
