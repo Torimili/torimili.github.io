@@ -11,6 +11,31 @@
 /* ON STYLE CSS SHEET */
 
 /* MAIN */
+/* COUNTDOWN TIMER */
+.time-wrapper h4 {
+  margin: 0;
+}
+.time-wrapper {
+  background-color: #561425;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+    text-align: center;
+  flex-direction: column;
+  color: white;
+  background-image: url("../assets/images/grad.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.time-wrapper h4 {
+  font-size: 5rem;
+  text-shadow: 2px 3px 0px black;
+  font-family: 'Marcellus SC', serif;
+}
+.time-wrapper p {
+  font-size: 3rem;
+}
+
 .card-about {
     padding:25px;
     margin:25px;
