@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 body {
   padding: 10%;
 }
@@ -7,25 +9,30 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 3%;
+  padding: 0%;
   border-radius: 10px 10px 10px 10px;
   margin-bottom: 10px;
 }
 .header h1 {
   flex: 1;
   font-size: 36pt;
+  font-family: 'VT323', monospace;
+
 }
 .header h3 {
   flex: 1;
-  font-size: 24pt;
+  font-size: 18pt;
+  font-family: 'VT323', monospace;
+
 }
 .calc-top {
   flex: 1;
   height: 100px;
   background-color: rgb(124, 13, 19);
   padding: 20px;
-  font-size: 36px;
+  font-size: 48px;
   color: white;
+  font-family: 'VT323', monospace;
 }
 
 .button-wrapper {
@@ -37,7 +44,10 @@ body {
 }
 button {
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
   border-radius: 8px;
-  background-color: rgb{253, 200, 13};
+  background-color: rgb(253, 200, 13);
+  box-shadow: 5px 5px 8px 0px;
+  font-family: 'VT323', monospace;
+  font-size: 24pt;
 }
