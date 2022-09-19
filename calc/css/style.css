@@ -1,3 +1,43 @@
 body {
-  margin: 0;
+  padding: 10%;
+}
+.header {
+  background-color: rgb(253,200,13);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3%;
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+}
+.header h1 {
+  flex: 1;
+  font-size: 36pt;
+}
+.header h3 {
+  flex: 1;
+  font-size: 24pt;
+}
+.calc-top {
+  flex: 1;
+  height: 100px;
+  background-color: rgb(124, 13, 19);
+  padding: 20px;
+  font-size: 36px;
+  color: white;
+}
+
+.button-wrapper {
+  background-color: rgb(172, 112, 74);
+  border: 18px solid rgb(253, 200, 13);
+  border-top: 0px;
+  border-radius: 0px 0px 20px 20px;
+  height: 200px;
+}
+button {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: rgb{253, 200, 13};
 }

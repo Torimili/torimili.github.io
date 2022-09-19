@@ -8,18 +8,22 @@
     <title>Calc Assignment - JS</title>
   </head>
   <body>
-
+    <div class="header">
       <section class="calculator-wrapper">
         <h1>WORLD'S WORST CALCULATOR</h1>
         <h3>It Really Is</h3>
-
-        <div class="button-wrapper">
-          <button onclick="calcResultAdd()">3 + 3</button>
-          <button onclick="calcResultSub()">6 - 2</button>
-          <button onclick="calcResultMult(900, 6)">9 * 6</button>
-        </div>
-        <p id="result"></p>
       </section>
+    </div>
+
+    <div class="calc-top">
+      <p id="result"></p>  
+    </div>
+
+    <div class="button-wrapper">
+      <button class="buttons" onclick="calcResultAdd()">3 + 3</button>
+      <button class="buttons" onclick="calcResultSub()">6 - 2</button>
+      <button class="buttons" onclick="calcResultMult(900, 6)">9 * 6</button>
+    </div>
 
       <section class="second-worst-calc">
         <h2>Second Worst Calculator</h2>
