@@ -1,55 +1,103 @@
 <!DOCTYPE html>
 <html lang="zxx" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>TMorris: GDWD107 Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- AOS STYLE SHEET -->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="header-image">
-        <img src="./assets/TD_brandlogo_black.png" alt="TD logo">
-      </div>
-      <div class="header-text">
-        <h1>Tonya Morris</h1>
-        <h3>Course Projects</h3>
-      </div>
-    </header>
-    <main>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="icon" href="./assets/TD_Logo_lilac2.png">
+    <title>Torimili Designs - Web Portfolio</title>
+</head>
+<body>
 
-      <!-- Main Content Wrapper -->
-      <!-- COUNTDOWN -->
-      <div class="time-wrapper">
-        <h4>Last Day of School:</h4>
-        <p id="date-element"></p>
-      </div>
-      
+    <div class="main-page">
+        <header>
+            <div class="header-left">
+                <img src="./assets/TD_brandlogo_black.png" alt="Torimili Designs brand logo">
+            </div>
+            <div class="header-right">
+                <h1>Web Portfolio</h1>
+            </div>
+        </header>
 
-      <section>
-        <h1>Projects</h1>
-        <p>Links to coding projects I have done while in my GDWD_107 class.</p>
-      </section>
-    </main>
-    <nav>
-      <ul>
-        <li> <a href="./TMorris_MyWikiPage/index.html">My Wiki_Red Panda</a> </li>
-        <li> <a href="./gittyup/index.html">Gitty Up</a> </li>
-        <li> <a href="./nav_bars/index.html">Nav Bars</a> </li>
-        <li> <a href="./tables_fonts/index.html">Tables and Fonts</a> </li>
-      </ul>
-    </nav>
-    <!-- <main>
-      <section>
-        <h1>Projects</h1>
-        <p>Links to coding projects I have done while in my GDWD_107 class.</p>
-      </section>
-    </main> -->
-    <footer>
-      <div class="footer-image">
-        <img src="./assets/TD_Logo_lilac2.png" alt="Torimili Designs logo">
-      </div>
-    </footer>
+        <!-- MAIN CONTENT WRAPPER -->
+        <!-- COUNTDOWN -->
+        <div class="time-wrapper">
+            <h4>Graduation Date:</h4>
+            <p id="date-element"></p>
+        </div>
 
-    <script src="./js/countdown.js"></script>
-  </body>
+        <nav>
+            <div>
+                <h2>Links to Projects I've Coded</h2>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <a href="./assignments/TMorris_MyWikiPage/index.html">
+                        <li>My Wiki - Red Panda</li>
+                    </a>
+                    <a href="./assignments/gittyup/index.html">
+                        <li>Gitty Up</li>
+                    </a>
+                    <a href="./assignments/nav_bars/">
+                        <li>Nav Bars</li>
+                    </a>
+                    <a href="./assignments/tables_fonts/">
+                        <li>Tables and Fonts</li>
+                    </a>
+                    <a href="./assignments/georgerrmartin/">
+                        <li>George RR Martin</li>
+                    </a>
+                    <a href="./assignments/js_demo/">
+                        <li>Foxtail Farms</li>
+                    </a>
+                    <a href="./assignments/div_practice/">
+                        <li>Cute Whale Co</li>
+                    </a>
+                    <a href="./assignments/portfolio_v0-3/">
+                        <li>Portfolio</li>
+                    </a>
+                    <a href="./assignments/semantic_layout/">
+                        <li>Semantic Layout</li>
+                    </a>
+                    <a href="./assignments/calc/">
+                        <li>World's Worst Calculator</li>
+                    </a>
+                    <a href="./assignments/flex_test_bootstrap/">
+                        <li>Flex Testing</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+
+<!-- BUTTON -->
+    <div class="about-button-wrapper">
+        <h2>Thanks for Visiting!</h2>
+        <button class="about-button" onclick="toggleContent()">Back To Main</button>
+        <div class="about-text" id="js-demo">
+            <h3></h3>
+        </div>
+    </div>
+
+        <footer>
+            <div class="footer-left">
+
+            </div>
+            <div class="footer-center">
+
+            </div>
+            <div class="footer-right">
+
+            </div>
+        </footer>
+    </div>
+<!-- SCRIPT TAGS, IF ANY -->
+<script src="./js/countdown.js"></script>
+
+<!-- FOR TESTING -->
+<!-- console.log -->
+
+</body>
 </html>

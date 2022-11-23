@@ -1,4 +1,4 @@
-console.log("Countdown JS Loaded");
+ sconsole.log("Countdown JS Loaded");
 
 // Set the date we're counting down to
 var countDownDate = new Date("Sept 01, 2022 23:59:00:00").getTime();
