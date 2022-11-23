@@ -25,6 +25,6 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("date-element").innerHTML = "Assignment Completed";
+    document.getElementById("date-element").innerHTML = "Congratulations Graduate!";
   }
 }, 1000);
